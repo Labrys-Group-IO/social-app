@@ -1,8 +1,8 @@
-# Avantgarde Social
+# Labrys Social
 
 ## Requirements
 
-To start working with the Avant Social, ensure the following tools are installed:
+To start working with this Social, ensure the following tools are installed:
 
 - [Node.js](https://nodejs.org/en/download/) (v22 or higher) - the JavaScript runtime used in this project.
 - [pnpm](https://pnpm.io/installation) - the package manager used throughout this repository.
@@ -16,7 +16,7 @@ Simply install using npm: `npm install -g pnpm`
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Avantgarde-Social/social.git
+git clone https://github.com/labrys-group-io/social.git
 ```
 
 ### Install NVM and pnpm

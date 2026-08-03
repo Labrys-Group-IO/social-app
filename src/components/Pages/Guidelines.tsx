@@ -14,9 +14,9 @@ const Guidelines = () => {
             <div className="!p-8 max-w-none text-gray-500 dark:text-gray-200">
               <div className="space-y-5">
                 <p className="leading-7">
-                  To protect all users on Avantgarde and to prevent spam, we put some
+                  To protect all users on Labrys and to prevent spam, we put some
                   rules in place. Please read them carefully and remember them
-                  whenever you post something on Avantgarde or change your account.
+                  whenever you post something on Labrys or change your account.
                 </p>
               </div>
               {/* Safety begins */}
@@ -42,7 +42,7 @@ const Guidelines = () => {
               <H4 className="mt-8 mb-5">Nudity</H4>
               <div className="space-y-5">
                 <p className="leading-7">
-                  Avantgarde is not a place to display, share or promote any form of
+                  Labrys is not a place to display, share or promote any form of
                   the following types of content:
                 </p>
                 <ul className="list-inside list-disc space-y-2">
@@ -50,7 +50,7 @@ const Guidelines = () => {
                   <li>Sexual content</li>
                 </ul>
                 <p className="leading-7">
-                  Please try to keep Avantgarde family-friendly (especially considering
+                  Please try to keep Labrys family-friendly (especially considering
                   all images, videos, audio, and links).
                 </p>
               </div>
@@ -59,7 +59,7 @@ const Guidelines = () => {
               <H4 className="mt-8 mb-5">Spam</H4>
               <div className="space-y-5">
                 <p className="leading-7">
-                  You are not allowed to use Avantgarde as a platform to
+                  You are not allowed to use Labrys as a platform to
                 </p>
                 <ul className="list-inside list-disc space-y-2">
                   <li>Manipulate other users</li>
@@ -79,7 +79,7 @@ const Guidelines = () => {
               <H4 className="mt-8 mb-5">Impersonation</H4>
               <div className="space-y-5">
                 <p className="leading-7">
-                  You are not allowed to impersonate other people on Avantgarde.
+                  You are not allowed to impersonate other people on Labrys.
                 </p>
                 <p className="leading-7">
                   We understand that some of you like to create Accounts with
@@ -91,8 +91,8 @@ const Guidelines = () => {
                 </p>
                 <H4 className="mt-8 mb-5">Suspension</H4>
                 <p className="leading-7">
-                  Account suspension applies only to Avantgarde and not to Lens.
-                  Decisions to suspend an account are made by the Avantgarde team and
+                  Account suspension applies only to Labrys and not to Lens.
+                  Decisions to suspend an account are made by the Labrys team and
                   are not automated.
                 </p>
                 <p className="leading-7">
@@ -100,7 +100,7 @@ const Guidelines = () => {
                   these guidelines, with or without prior notice.
                 </p>
                 <p className="font-bold leading-7">
-                  This is a Avantgarde-specific decision / feature and not a
+                  This is a Labrys-specific decision / feature and not a
                   protocol-level decision / feature.
                 </p>
               </div>
@@ -116,8 +116,7 @@ const Guidelines = () => {
               <H4 className="mt-8 mb-5">Feedback</H4>
               <p className="linkify leading-7">
                 If you have any feedback on these rules or if you have any
-                questions, please{" "}
-                <Link to="mailto:support@avantgarde.social">contact us</Link>.
+                questions, please{" "} contact us.
               </p>
               {/* Feedback ends */}
             </div>

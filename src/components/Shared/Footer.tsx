@@ -6,18 +6,18 @@ const links = [
   { href: "/terms", label: "Terms" },
   { href: "/privacy", label: "Privacy" },
   { href: "/guidelines", label: "Guidelines" },
-  { href: "https://medium.com/@avantgardefi", label: "Medium" },
-  { href: "/u/avantgarde", label: "Avantgarde" },
-  { href: "https://github.com/avantgardesocial/avantgarde.social", label: "GitHub" },
+  { href: "https://medium.com/@labrys", label: "Medium" },
+  { href: "/u/labrys", label: "Labrys" },
+  { href: "https://github.com/labrys-group-io/social", label: "GitHub" },
   { href: "/support", label: "Support" },
-  { href: "https://avantgarde.finance", label: "Status" }
+  { href: "https://social.labrys.io", label: "Status" }
 ];
 
 const Footer = () => {
   return (
     <footer className="flex flex-wrap gap-x-[12px] gap-y-2 px-3 text-sm lg:px-0">
       <span className="font-bold text-gray-500 dark:text-gray-200">
-        &copy; {currentYear} Avantgarde.social
+        &copy; {currentYear} Labrys
       </span>
       {links.map(({ href, label }) => (
         <Link

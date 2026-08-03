@@ -103,7 +103,7 @@ const ViewAccount = () => {
 
   return (
     <PageLayout
-      title={`${accountInfo.name} (${accountInfo.username}) • Avantgarde`}
+      title={`${accountInfo.name} (${accountInfo.username}) • Labrys`}
       zeroTopMargin
     >
       <Cover
