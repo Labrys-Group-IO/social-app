@@ -43,20 +43,6 @@ From the repository root, install dependencies with pnpm:
 pnpm install
 ```
 
-### Set up Environment Variables
-
-Copy the `.env.example` file to `.env` for each package or application that requires configuration:
-
-```bash
-cp .env.example .env
-```
-
-Repeat this process for all relevant packages and applications in the monorepo.
-
-### Environment Variables
-
-The example environment files define the following variables:
-
 #### API (`apps/api/.env.example`)
 
 - `PRIVATE_KEY` - Private key used to sign Lens requests.
