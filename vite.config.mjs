@@ -2,6 +2,7 @@ import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
+import { initConfig } from "./src/indexer/generated.ts";
 
 export default defineConfig({
   build: {
@@ -16,6 +17,11 @@ export default defineConfig({
       }
     }
   },
-  plugins: [tsconfigPaths(), react(), tailwindcss()],
+  plugins: [
+    tsconfigPaths(),
+    react(),
+    tailwindcss(),
+    initConfig()
+  ],
   preview: { allowedHosts: true }
 });
